@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>Your deck.js Presentation</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/web-2.0.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/vertical-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+      <h1>Dishwasher Improvements </h1>
+          <p>ENGR 416 Final Presentation<p>
+      <img style="position: absolute; top: 540px; left: 1050px; width 415; height: 60px" src="http://upload.wikimedia.org/wikipedia/en/7/77/SFState_Logo.png">
+      <DIV style="position: absolute; top:600px; left:1040px; width:375px; height:20px">School of Engineering</DIV>
+         
+    </section>
+
+    <section class="slide">
+      <h2>Content</h2>
+      
+        <ol>
+        <li  >
+         The Problem with Current Dishwashers
+        </li>
+        <li >
+         Our Solution
+         </li>
+         <li >
+         The Design Process
+         </li>
+         <li>
+         Results
+         </li>
+         <li >
+         Future Work - How can we Improve?
+         </li>
+         <li >
+         Demonstration
+         </li>
+         </ol>
+
+     
+    </section>
+
+ <section class="slide">
+      <h2>The Problem</h2>
+
+     <h3> Circular spray pattern is ineffecient</h3>
+     <p> -Food residue is left in corner dishes</p>
+     <p> -Cleanliness is dependent on dish orientation</p>
+     <img style="position:absolute; top:225px; left:600px; WIDTH:525px; HEIGHT:350px" src=http://i.imgur.com/ckW08BR.jpg"></img>
+     
+    
+    </section>
+
+       <section class="slide">
+      <h2>Our Solution</h2>
+      <h3>We made an improved dishwasher with the following criteria:</h3>
+        <li>
+         <h3>Improves area coverage in dishwasher</h3></li>
+         <p>Replaced rotating arm with novel mechanical system<p>
+        <li><h3>Hits more angles than a normal dishwasher</H3>
+          <p>Linear motion rack has two rotating heads
+        
+       
+         </li>
+      
+   
+    </section>
+
+    <section class="slide">
+      <h2>The Mechanical Design</h2>
+      
+     <DIV style="position: absolute; top:150px; left:225px; width:875px; height:120px"><h3>Water pressure spins jets and Cleans Dishes</h3></DIV>
+      <img style="position:absolute; top:250px; left:225px; WIDTH:325px; HEIGHT:350px"src=http://i.imgur.com/ysXTbUM.jpg"></img> 
+      <img style="position:absolute; top:250px; left: 775px; WIDTH:325px; HEIGHT:350px"src=http://i.imgur.com/fCQth9L.jpg"></img>
+
+      </section> 
+
+  <section class="slide">
+  <h2>(continued)</h2>
+
+   <DIV style="position: absolute; top:150px; left:50px; width:550px; height:500px"> 
+     <h3>Motor 180 rpm (A)</h3>
+     <p></p>
+     <h3>3:1 Gear reduction to sheave (B)</h3>
+     <p></p>
+     <h3>12:1 power screw (D)</h3>
+     <p></p>
+     <h3>Net movement 5"/min</h3>
+     <p></p>
+     </DIV>
+
+ <img style="position:absolute; top:150px; left:550px; WIDTH:525px; HEIGHT:450px"src=http://i.imgur.com/KOgFBBS.jpg"></img>
+       
+
+</section>
+    
+    <section class="slide">
+    <h2>The Electrical Design</h2>
+    <h3>How we made the system autonomous</h3>
+    <li>12V Gearhead Motor</li>
+    <li>Three relays to switch motor direction</li>
+    <li>Waterproof limit switches placed </li>
+    <li>Arduino Microcontroller used</li>
+    
+     <img style="position:absolute; top:250px; left: 475px; WIDTH:500px; HEIGHT:375px"src=http://i.imgur.com/RMCVR0u.jpg"></img>
+
+
+    </section>
+
+      <section class="slide">
+    <h2>The Computer Science Design</h2>
+    <h3>How we made the project user friendly</h3>
+    <li>Arduino serially communicates with Python User Interface</li>
+    <li>Two options for length of Cycle</li>
+    <li>Allows for future work</li>
+    <img style="position:absolute; top:250px; left: 475px; WIDTH:550px; HEIGHT:375px"src=http://i.imgur.com/gEtxQ5M.jpg"></img>
+
+    
+
+    </section>
+
+      <section class="slide">
+      <h2>Results</h2>
+
+     <h3> Dishwasher Improvements Achieved the Stated Design Goals:</h3>
+     <ul>
+     <li><h3>Jets are aimed tangentially to spinner to cause rotation</h3></li>
+     <li><h3>Additional jets provide washing action</h3></li>
+     <li><h3>More coverage is seen through acrylic casing</h3></li>
+
+</ul>
+
+      </section>
+
+      <section class="slide">
+      <h2>Future Work</h2>
+      <h3>Project leaves great room for improvement</h3>
+      <ul>
+     
+      <li>Use better material to prevent rust</li>
+      <li>Allow a reset position in case of black-out</li>
+      <li>Have one power source for whole system</li>
+      <li>Use a different microcontroller</li>
+      <li>Make it wifi enabled and have a Web App (cool!)</li>
+
+ 
+      </section>
+
+      <section class="slide">
+      <h2>Demonstration with Water</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Pv3HPX_2lec" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+  <section class="slide">
+      <h2>Demonstration without Water</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/7XWzW74d0jg" frameborder="0" allowfullscreen></iframe>
+      </section>
+
+       <section class="slide">
+      <h1>Thank you for Watching</h1>
+      </section>
+
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
